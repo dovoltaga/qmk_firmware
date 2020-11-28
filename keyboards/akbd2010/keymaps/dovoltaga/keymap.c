@@ -7,10 +7,10 @@
 // Layer names don't all need to be of the same length, obviously, and you can also skip them
 // entirely and just use numbers.
 #define _QWERTY 0
-#define _LOWER 2
-#define _RAISE 3
-#define _FKEY 4
-#define _ADJUST 5
+#define _LOWER 1
+#define _RAISE 2
+#define _FKEY 3
+#define _ADJUST 4
 
 #define LOWER  MO(_LOWER)
 #define RAISE  MO(_RAISE)
