@@ -116,19 +116,23 @@ layer_state_t layer_state_set_user(layer_state_t state) {
   #ifdef RGBLIGHT_ENABLE
     switch (get_highest_layer(state)) {
     case _LOWER:
-      rgblight_sethsv_at(HSV_BLUE, 0);
+      //rgblight_sethsv_at(HSV_BLUE, 0);
+      rgblight_sethsv(HSV_BLUE);
       break;
     case _RAISE:
-      rgblight_sethsv_at(HSV_RED, 0);
+      //rgblight_sethsv_at(HSV_RED, 0);
+      rgblight_sethsv(HSV_RED);
       break;
     case _FKEY:
-      rgblight_sethsv_at(HSV_YELLOW, 0);
+      //rgblight_sethsv_at(HSV_YELLOW, 0);
+      rgblight_sethsv(HSV_YELLOW);
       break;
     default: //  for any other layers, or the default layer
-      rgblight_sethsv_at( 0, 0, 0, 0);
+      //rgblight_sethsv_at( 0, 0, 0, 0);
+      rgblight_sethsv( 0, 0, 0);
       break;
     }
-    //rgblight_set_effect_range( 0, 1);
+    //rgblight_set_effect_range( 1, 1);
 #endif
     return state;
 }
