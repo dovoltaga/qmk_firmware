@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x0002
 #define DEVICE_VER      0x0002
 #define MANUFACTURER    dovoltaga
-#define PRODUCT         akbd2010
+#define PRODUCT         kaminaduki
 #define DESCRIPTION     A split keyboard for the cheap makers
 
 /* key matrix size */
@@ -58,7 +58,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* ws2812 RGB LED */
 #define RGB_DI_PIN D3
 #define RGBLED_NUM 2    // Number of LEDs
+#define RGBLIGHT_SPLIT
 #define RGBLED_SPLIT {1,1}
+//#define RGBLIGHT_ANIMATIONS
 
 /*
  * Feature disable options

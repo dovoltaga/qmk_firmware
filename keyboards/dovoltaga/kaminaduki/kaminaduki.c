@@ -1,4 +1,4 @@
-#include "akbd2010.h"
+#include "kaminaduki.h"
 
 #ifdef SWAP_HANDS_ENABLE
 __attribute__ ((weak))
