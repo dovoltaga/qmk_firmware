@@ -1,4 +1,4 @@
-# kaminaduki
+# shiwasu
 
 A split 6x3 ortholinear keyboard. [Hardware project repo](https://github.com/dovoltaga/keyboard/shiwasu)
 
