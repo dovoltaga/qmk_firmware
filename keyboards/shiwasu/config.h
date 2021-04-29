@@ -23,8 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 // #define VENDOR_ID       0x6F77
 #define VENDOR_ID       0x644F //dO
-#define PRODUCT_ID      0x0003
-#define DEVICE_VER      0x0002
+#define PRODUCT_ID      0x0002
+#define DEVICE_VER      0x0001
 #define MANUFACTURER    dovoltaga
 #define PRODUCT         shiwasu
 #define DESCRIPTION     A split keyboard for the cheap makers
